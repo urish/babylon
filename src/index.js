@@ -35,7 +35,7 @@ export function parseExpression(input: string, options?: Options): Expression {
   return parser.getExpression();
 }
 
-
+export { plugins };
 export { tokTypes };
 
 function getParser(options: ?Options, input: string): Parser {
